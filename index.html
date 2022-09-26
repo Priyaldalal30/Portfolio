@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&family=Stalinist+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand pb-0" href="index.html" fs-3>Pd</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#email">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h2>😊 Hello! I am</h2>
+    <h1>Priyal Dalal</h1>
+    <h3>Front-end Developer</h3>
+    <div id="contact-about">
+      <div class="about">
+        <a href="about.html" class="about">About Me</a>
+      </div>
+      <div class="contact">
+        <a href="about.html#email" class="contact">Contact Me</a>
+      </div>
+    </div>
+    <h3 id="projects">My Projects</h3>
+    <div class="container">
+      <div class="row border border-3 rounded p-4 m-3 shadow" id="project">
+        <div class="col-sm-6">
+          <img
+            src="images/moodboard.jpg"
+            alt="moodboard"
+            class="img-fluid shadow rounded imgSize shadow-lg"
+          />
+        </div>
+        <div class="col-sm-6 text-start">
+          <p
+            class="projectName1 fs-3 fw-bold mt-3 font-family: 'Josefin Sans', sans-serif;"
+          >
+            Design Studio
+          </p>
+          <p class="projectDescription1 lh-base fs-6">
+            This was my first project, where I created a basic landing page
+            about a Design Studio using the basic technologies of HTML, CSS,
+            JavaScript and Visual Studio Code
+            <br />
+            <a
+              href="https://jazzy-dasik-d91f99.netlify.app"
+              target="_blank"
+              class="btn btn-outline-dark mt-5"
+              >Check it out</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="row border border-3 rounded p-4 m-3 shadow" id="project">
+        <div class="col-sm-6">
+          <img
+            src="images/weather.png"
+            alt="moodboard"
+            class="img-fluid shadow rounded imgSize shadow-lg"
+          />
+        </div>
+        <div class="col-sm-6 text-start">
+          <p
+            class="projectName1 fs-3 fw-bold mt-3 font-family: 'Josefin Sans', sans-serif;"
+          >
+            Weather App
+          </p>
+          <p class="projectDescription1 lh-base fs-6">
+            This was my second project, which was built using HTML, CSS,
+            Bootstrap, JavaScript and API. The application can search for the
+            current weather anywhere in the world using OpenWeatherMap API, as
+            well as display a five day forecast and weather parameters of the
+            searched cities.
+
+            <br />
+            <a
+              href="https://dynamic-unicorn-1dbf10.netlify.app"
+              target="_blank"
+              class="btn btn-outline-dark mt-5"
+              >Check it out</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a
+        href="https://github.com/Priyaldalal30/Weather_App"
+        target="_blank"
+        class="coded"
+        >Open Source Code</a
+      >
+      by Priyal Dalal
+      <br />
+    </div>
+    <p></p>
+  </body>
+</html>

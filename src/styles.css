@@ -1,0 +1,127 @@
+:root {
+  --heading-color: #162936;
+  --subheading-color: #354648;
+  --gradient: linear-gradient(
+    to top,
+    lightgrey 0%,
+    lightgrey 1%,
+    #e0e0e0 26%,
+    #efefef 48%,
+    #d9d9d9 75%,
+    #bcbcbc 100%
+  );
+  --shadow: 3px 3px 2px 1px rgba(53, 72, 71, 0.2);
+}
+
+body {
+  text-align: center;
+  background: var(--gradient);
+  padding-top: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+h2 {
+  margin-top: 50px;
+  font-size: 45px;
+  margin-bottom: 0px;
+  color: var(--heading-color);
+}
+h1,
+h4 {
+  font-size: 86px;
+  margin-top: 0px;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+}
+h4 {
+  margin-top: 50px;
+}
+h3,
+h5 {
+  font-size: 25px;
+  margin-top: 5px;
+  color: var(--subheading-color);
+  margin-bottom: 60px;
+}
+#projects {
+  margin-bottom: 10px;
+  color: #151d25;
+  text-decoration: underline;
+}
+#contact-about {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+a.contact,
+a.about {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: var(--shadow);
+}
+a.homepage {
+  text-decoration: none;
+  color: rgb(48, 47, 47);
+  display: flex;
+  justify-content: end;
+}
+h4 {
+  margin-bottom: 0px;
+}
+h5 {
+  margin-top: 0px;
+}
+#description {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+#email {
+  font-size: 100px;
+}
+a.emailaddress {
+  font-size: 18px;
+  position: relative;
+  top: -50px;
+  text-decoration: none;
+  color: #162936;
+}
+a.emailaddress:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.row#project {
+  background-image: linear-gradient(to left, #d7d2cc 0%, #151d25 100%);
+}
+.navbar-brand {
+  font-family: "Stalinist One", cursive;
+  font-size: 25px;
+}
+.imgSize {
+  width: 70%;
+}
+.imgSmall1 {
+  margin-bottom: 20px;
+}
+.imgSmall {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container#hobby {
+  border: 4px solid #e8e8e8;
+  border-radius: 5px;
+  background-image: linear-gradient(-225deg, #fdfae3 0%, #fff5e6 100%);
+}
+a.coded {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #151d25;
+  text-decoration: none;
+}
+a.coded:hover {
+  text-decoration: underline;
+}
